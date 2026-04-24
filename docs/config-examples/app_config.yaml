@@ -1,0 +1,23 @@
+service:
+  host: 127.0.0.1
+  port: 18080
+
+storage:
+  base_dir: D:/OpenClaw/education-learning
+  database_path: D:/OpenClaw/education-learning/data/database/education.db
+
+ocr:
+  engine: paddleocr
+  enable_layout: true
+
+llm:
+  provider: configurable
+  model: configurable
+  enable_cloud: false
+
+mastery:
+  initial_score: 80
+  wrong_penalty: 5
+  repeated_wrong_extra_penalty: 5
+  correction_bonus: 3
+  correct_bonus: 5

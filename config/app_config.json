@@ -1,0 +1,15 @@
+{
+  "app_name": "education-learning-service",
+  "version": "1.0.0",
+  "data_root": "./data",
+  "default_student": "孩子A",
+  "enable_stub_ocr": true,
+  "enable_stub_ai": true,
+  "mastery": {
+    "initial_score": 75,
+    "wrong_penalty": 5,
+    "correct_bonus": 2,
+    "min_score": 0,
+    "max_score": 100
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "initial_score": 80,
+  "levels": [
+    {
+      "min": 90,
+      "max": 100,
+      "label": "掌握较好"
+    },
+    {
+      "min": 75,
+      "max": 89,
+      "label": "基本掌握"
+    },
+    {
+      "min": 60,
+      "max": 74,
+      "label": "掌握不稳定"
+    },
+    {
+      "min": 40,
+      "max": 59,
+      "label": "明显薄弱"
+    },
+    {
+      "min": 0,
+      "max": 39,
+      "label": "未掌握"
+    }
+  ],
+  "rules": {
+    "wrong_penalty": -5,
+    "repeated_wrong_extra_penalty": -5,
+    "correction_bonus": 3,
+    "continuous_correct_bonus": 5
+  }
+}
